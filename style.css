@@ -1,0 +1,43 @@
+/* global settings */
+html {
+    background-color: rgb(172, 160, 160);
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size:18px;
+}
+
+
+/* header */
+header {
+    background-image: url(./images/officebuilding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    box-shadow: 10px 5px 5px black;
+}
+
+.title {
+    text-align: center;
+    width: 20%;
+    background-color: rgba(172,160,160, 0.6);
+    align-self: center;
+    flex:1;
+}
+header nav {
+    background-color: rgba(172,160,160,0.6);
+}
+
+header ul {
+    list-style: none;
+    padding-right: 4rem;
+    background-color: rgba(133, 31, 31, 0.6);
+    flex: 1;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px black;
+}
+
+a {
+    color: black;
+}
+
