@@ -50,7 +50,6 @@ a {
     box-shadow: 5px 5px 5px black;
     flex-wrap: wrap;
     height: 100%;
-
 }
 
 .mission h2 {
@@ -61,6 +60,7 @@ a {
     align-self: center;
     padding: 1rem;
     width: 25%;
+    text-align: center;
 }
 
 .mission img {
@@ -157,3 +157,11 @@ a {
 footer {
     text-align: center;
 }
+
+
+@media only screen and (max-width: 440px) {
+.mission img {
+    max-width: 100%;
+}
+}
+    
