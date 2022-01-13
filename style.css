@@ -100,7 +100,7 @@ a {
     align-content: center;
     flex-wrap: wrap;
     padding left: 1rem;
-    
+    text-align: center;
 }
 
 .serv img {
@@ -130,10 +130,30 @@ a {
     align-content: center;
     flex-wrap: wrap;
     padding left: 1rem;
-    
+    text-align: center;
 }
 
 .people img {
     height: 200px;
     margin: 1rem;
+}
+
+/* splitter */
+.contact {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+    box-shadow: 5px 5px 5px black;
+}
+
+.contact img {
+    height: 100%;
+    width: 100%;
+    }
+
+
+footer {
+    text-align: center;
 }
